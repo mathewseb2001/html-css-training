@@ -1,0 +1,166 @@
+body {
+  background-image: url("bg_white_2.jpg");
+  background-color: rgba(255, 255, 255, 0.9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1350px;
+  font-family: Trebuchet MS, sans-serif;
+}
+.navBar {
+  position: sticky;
+  border-radius: 10px;
+  padding: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(255,222,52);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.aboutCSS {
+  display: flex;
+  width: 100%;
+}
+.leftAbout {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.rightAbout {
+  flex: 1;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+img {
+  border-radius: 100%;
+}
+#about p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 100px;
+  font-size: larger;
+}
+.skillsCSS {
+  display: flex;
+  width: 100%;
+}
+.leftSkills {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.leftSkills h1 {
+  margin-bottom: 260px;
+}
+.rightSkills {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+}
+.rightSkills img {
+  margin-bottom: 100px;
+}
+.qualCSS {
+  display: flex;
+  width: 100%;
+}
+.leftQual {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.rightQual {
+  flex: 1;
+  margin-left: 1px;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.expCSS {
+  display: flex;
+  width: 100%;
+}
+.leftExp {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.rightExp {
+  flex: 1;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  margin-bottom: 100px;
+}
+.bg5 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 200px;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.icon{
+  position: relative;
+  height: 1em;
+  top: 0px; 
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: white;
+  padding:5px 10px;
+  border-radius: 50px;
+  border: none;
+  height: 32px;
+
+}
+.rightAboutimg1 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+.rightAboutimg2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+} 

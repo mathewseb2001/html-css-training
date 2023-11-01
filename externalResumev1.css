@@ -1,0 +1,90 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: black;
+  background-image: url("bg.jpg");
+  background-size: 1500px;
+}
+img {
+  position: absolute;
+  top: 75px;
+  left: 160px;
+  border-radius: 50%;
+}
+.Name {
+  margin-top: 100px;
+  margin-left: 80px;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  padding: 4px;
+  margin-right: 100px;
+  text-align: left;
+  border-radius: 0px 0px 50px 0px;
+  margin-bottom: 50px;
+}
+.namePadding {
+  padding-left: 380px;
+}
+.fullBody {
+  display: flex;
+  width: 100%;
+}
+.leftBody {
+  flex: 1;
+  margin-left: 100px;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  padding-left: 10s0px;
+  font-size: 20px;
+  line-height: 10px;
+}
+.rightBody {
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-right: 100px;
+  color: white;
+}
+.contactContainer {
+  padding-left: 20px;
+}
+.skillsContainer {
+  border: 2px solid white;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: grey;
+}
+a:link {
+    background-color: yellow;
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: grey;
+  }
+  
+  a:active {
+    background-color: grey;
+  }  
+  progress::-webkit-progress-bar {
+    background-color: green;
+ }
+ .heavy{
+    font-weight: bold;
+ }
+ .workExp{
+    line-height: 0.5;
+ }
+ .underline{
+    text-decoration: underline;
+ }

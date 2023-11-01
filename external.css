@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.heading {
+  color: red;
+  text-align: center;
+}
+.oList {
+  background-color: lightcoral;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.inOlist {
+  background-color: rgb(249, 207, 213);
+}
+.uList {
+  background-color: rgb(62, 96, 249);
+  padding: 10px;
+  border-radius: 10px;
+}
+.singleElem {
+  background-color: white;
+  margin-bottom: 3px;
+}
